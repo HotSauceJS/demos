@@ -3,10 +3,9 @@ body {
 }
 
 h1 {
-    font-family: 'Dosis', sans-serif;
     font-weight: 300;
-    font-size: 28px;
-    margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 5px;
 }
 
 .bold {
@@ -15,24 +14,21 @@ h1 {
 }
 
 h2 {
-    font-family: 'Dosis', sans-serif;
     font-weight: 300;
     font-size: 32px;
     margin-bottom: 30px;
 }
 
 h3 {
-    font-family: 'Dosis', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
 }
 
 p {
-    font-family: 'Dosis', sans-serif;
     font-weight: 400;
     line-height: 1;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 small {
@@ -41,11 +37,7 @@ small {
     font-size: 12px;
 }
 
-#box {
-    padding: 30px 25px;
-    margin-top: 10px;
-    text-align:center;
-}
+
 
 .arrow {
     border-top: 5px solid rgba(249, 160, 33, 0.9)!important;
@@ -64,6 +56,10 @@ small {
 
 .popover-title {
     display: none;
+}
+
+.content-box {
+    margin-top: 20px;
 }
 
 .popover-content {
@@ -88,4 +84,13 @@ input[type="text"]:focus {
     h1 {
         line-height: 1.1em;
     }
+}
+
+.tagline {
+    font-size: 1.1em;
+    font-style: italic;
+}
+
+.btn {
+    margin-top: 20px;
 }
